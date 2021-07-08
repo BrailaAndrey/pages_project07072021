@@ -1,0 +1,6 @@
+<header>
+    <a href="{% url 'home' %}">Home</a> | <a href="{% url 'about'%}">About</a>
+</header>
+
+{% block content %} # блоки могут быть перезаписаны дочерними шаблонами с помощью наследования
+{% endblock content %}
